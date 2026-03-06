@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тултип — Лабораторная работа (Вариант 17)</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <main class="wrapper">
+        
+        <section class="demo">
+            
+            <div class="tooltip">
+                <button 
+                    class="tooltip__trigger" 
+                    aria-label="Показать подсказку" 
+                    aria-describedby="tooltip-text"
+                >
+                    ?
+                </button>
+                <span 
+                    class="tooltip__content" 
+                    id="tooltip-text" 
+                    role="tooltВip"
+                >
+                    Это всплывающая подсказка с пояснением
+                </span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
